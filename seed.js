@@ -11,7 +11,6 @@ const seedData = async () => {
         await Promise.all(characterPromises);
     } catch (err) {
         console.error(err);
-        console.log('AHHHHHHHHHHH');
     }
 };
 seedData();
